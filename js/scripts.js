@@ -1,7 +1,7 @@
 
   //==Business_Side==
 $(document).ready(function()  {
-
+  //==User_NM_Fuction==
     $("#blanks form").submit(function(event) {
       var neophyteInput = $("input#neophyte").val();
 
@@ -11,7 +11,7 @@ $(document).ready(function()  {
 
        event.preventDefault();
      });
-    //==Parses_the_User's_Selection==
+  //==Parses_the_User's_Selection==
   $('form#trackSuggester').submit(function(event){
     event.preventDefault();
 
@@ -33,26 +33,26 @@ $(document).ready(function()  {
     var pathWork = seed+sprout+sapling+matureOak+snag;
     console.log(pathWork)
 
-//==User_NM_Fuction==
+
 
 
 
 
 //==Front_End==
      if (pathWork <=6){
-       $('#outPut').html('<p>Ruby</p>');
+       $('#outPut').html('<img/src="img/ruby.png"><p>Ruby</p>');
      }
      else if (pathWork <=11){
-       $('#outPut').html('<img"src=img/PHP.jpg"><p>PHP</p>');
+       $('#outPut').html('<img/src="img/PHP.jpg"><p>PHP</p>');
      }
      else if (pathWork <=15){
        $('#outPut').html('<p>JAVA</p>');
      }
      else if (pathWork <=21){
-       $('#outPut').html('<img"src=img/aCss.jpg"><p>CSS</p>');
+       $('#outPut').html('<img/src="img/css.jpg"><p>CSS</p>');
      }
      else if (pathWork <=25){
-       $('#outPut').html('<img "src=img/C#.jpg"><p>C#</p>');
+       $('#outPut').html('<img/src="img/C#.jpg"><p>C#</p>');
      }
 
    });
