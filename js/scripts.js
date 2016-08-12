@@ -33,6 +33,8 @@ $(document).ready(function()  {
     var pathWork = seed+sprout+sapling+matureOak+snag;
     console.log(pathWork)
 
+
+
 //==Front_End==
      if (pathWork <=6){
        $('#outPut').html('<img/src="img/ruby.png"><p>Ruby</p>');
