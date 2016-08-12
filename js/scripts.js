@@ -39,16 +39,16 @@ $(document).ready(function()  {
 
 
 //==Front_End==
-     if (pathWork <=5){
+     if (pathWork <=6){
        $('#outPut').html('<p>Ruby</p>');
      }
-     else if (pathWork <=10){
-       $('#outPut').html('<img "src=img/PHP.jpg"><p>PHP</p>');
+     else if (pathWork <=11){
+       $('#outPut').html('<img"src=img/PHP.jpg"><p>PHP</p>');
      }
      else if (pathWork <=15){
        $('#outPut').html('<p>JAVA</p>');
      }
-     else if (pathWork <=20){
+     else if (pathWork <=21){
        $('#outPut').html('<img"src=img/aCss.jpg"><p>CSS</p>');
      }
      else if (pathWork <=25){
