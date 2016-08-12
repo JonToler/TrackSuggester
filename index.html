@@ -9,11 +9,22 @@
     <title>TrackSuggester</title>
   </head>
   <body>
-    <h1>From the gateway of Introduction to Coding there are many paths.</h1>
+    <div class="container">
+
+      <h1>Greetings Neophyte, what is your name?</h1>
+
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="neophyte">A name</label>
+            <input id="neophyte" class="form-control" type="text">
+          </div>
+        </form>
+      </div>
+
+      <h1>Upon leaving the nest  of Introduction to Coding there are many paths one can travel.</h1>
 
     <div class="container">
-      <h1>What is your name?</h1>
-
       <form id="trackSuggester">
         <div>
           <label for="seed">From a solid foundation their are many paths</label>
@@ -49,7 +60,7 @@
         </div>
 
         <div>
-          <label for="matureOak">From a solid foundation their are many paths</label>
+          <label for="matureOak"><span class="neophyte"></span>From a solid foundation their are many paths</label>
           <select class= 'form-control' id='matureOak'>
             <option value = "1">Ruby</option>
             <option value = "2">PHP</option>
@@ -71,12 +82,10 @@
         </div>
         <button type="submit" class="btn">Your path leads to......</button>
       </form>
-      <div id="usrNm">
-        <p>
-          Based upon your choices <span class="name"></span>, Your end goals should be:
-        </p>
-      </div>
-      <div id='outPut'>
+    </div>
+
+    <div id='outPut'>
+
 
       </div>
     </div>

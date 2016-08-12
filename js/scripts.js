@@ -1,8 +1,17 @@
 
-//==Business_Side==
+  //==Business_Side==
 $(document).ready(function()  {
 
-//==Parses_the_User's_Selection==
+    $("#blanks form").submit(function(event) {
+      var neophyteInput = $("input#neophyte").val();
+
+       $(".neophyte").text(neophyteInput);
+
+       $("#userNm").show();
+
+       event.preventDefault();
+     });
+    //==Parses_the_User's_Selection==
   $('form#trackSuggester').submit(function(event){
     event.preventDefault();
 
@@ -25,17 +34,9 @@ $(document).ready(function()  {
     console.log(pathWork)
 
 //==User_NM_Fuction==
-  $('#blanks form').submit (function(event){
-    var blanks = ["name"];
 
-    blanks.forEach(function(blank){
-      var userInput = $("input."+ blank).val();
-      console.log(userInput);
-      $("."+blank).text(userInput).val();
-    });
 
-    $("#usrNm").show();
-  });
+
 
 //==Front_End==
      if (pathWork <=5){
