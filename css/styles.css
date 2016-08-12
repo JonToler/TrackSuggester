@@ -2,7 +2,11 @@
 body{
   background-color:black;
 }
-
+p{
+  font-family: 'Space Mono', monospace;
+  color: lightgreen;
+  font-size: 23px;
+}
 label{
   font-family: 'Space Mono', monospace;
   color: lightgreen;
