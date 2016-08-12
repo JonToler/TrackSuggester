@@ -37,19 +37,19 @@ $(document).ready(function()  {
 
 //==Front_End==
      if (pathWork <=6){
-       $('#outPut').html('<img/src="img/ruby.png"><p>Ruby</p>');
+       $('#outPut').html('<img/src="img/ruby.png"><p>Ruby/Rails</p>');
      }
      else if (pathWork <=11){
-       $('#outPut').html('<img/src="img/php.gif"><p>PHP</p>');
+       $('#outPut').html('<img/src="img/php.gif"><p>PHP/Drupal</p>');
      }
      else if (pathWork <=15){
-       $('#outPut').html('<img/src="img/java.gif"><p>Java</p>');
+       $('#outPut').html('<img/src="img/java.gif"><p>Java/Android</p>');
      }
      else if (pathWork <=21){
-       $('#outPut').html('<img/src="img/css.gif"><p>CSS</p>');
+       $('#outPut').html('<img/src="img/css.gif"><p>CSS/Design</p>');
      }
      else if (pathWork <=25){
-       $('#outPut').html('<img/src="img/csharp.jpg"><p>CSS</p>');
+       $('#outPut').html('<img/src="img/csharp.jpg"><p>C#/.Net</p>');
      }
 
    });
