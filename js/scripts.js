@@ -43,16 +43,16 @@ $(document).ready(function()  {
        $('#outPut').html('<img/src="img/ruby.png"><p>Ruby</p>');
      }
      else if (pathWork <=11){
-       $('#outPut').html('<img/src="img/PHP.jpg"><p>PHP</p>');
+       $('#outPut').html('<img/src="img/php.gif"><p>PHP</p>');
      }
      else if (pathWork <=15){
-       $('#outPut').html('<p>JAVA</p>');
+       $('#outPut').html('<img/src="img/java.gif"><p>Java</p>');
      }
      else if (pathWork <=21){
-       $('#outPut').html('<img/src="img/css.jpg"><p>CSS</p>');
+       $('#outPut').html('<img/src="img/css.gif"><p>CSS</p>');
      }
      else if (pathWork <=25){
-       $('#outPut').html('<img/src="img/C#.jpg"><p>C#</p>');
+       $('#outPut').html('<img/src="img/csharp.jpg"><p>CSS</p>');
      }
 
    });
