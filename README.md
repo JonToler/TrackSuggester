@@ -28,6 +28,6 @@ This software is Licensed under the MIT License
 
 ### Git Portfolio
 
-https://github.com/JonToler/TrackSuggester
+ https://jontoler.github.io/TrackSuggester/
 
 Copyright (c) 2016 Jon Toler All Rights Reserved.
