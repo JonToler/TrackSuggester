@@ -1,16 +1,39 @@
+
+body{
+  background-color:black;
+}
+
 label{
-font-family: 'Space Mono', monospace;
-color: green;
-font-size: 15px;
+  font-family: 'Space Mono', monospace;
+  color: lightgreen;
+  font-size: 15px;
 }
 
 h1{
-font-family: 'Ewert', cursive;
-align-items: center;
-background-color: lightblue;
+  font-family: 'Ewert', cursive;
+  align-items: center;
+  background-color: lightblue;
 
 }
 
+h2{
+  font-family: 'Fredericka the Great', cursive;
+  background-color: tan;
+}
+
+h3{
+  font-family: 'Fredericka the Great', cursive;
+  background-color: violet;
+
+}
 div{
-font-size: 18px;
+  font-size: 18px;
+  margin:auto;
+}
+button{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 18px;
+  color: white;
+  background-color: teal;
+  border-color: red;
 }

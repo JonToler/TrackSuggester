@@ -11,7 +11,7 @@ $(document).ready(function()  {
 
        event.preventDefault();
      });
-  //==Parses_the_User's_Selection==
+  //==Parses_the_User's_Selections tally the values==
   $('form#trackSuggester').submit(function(event){
     event.preventDefault();
 
@@ -32,11 +32,6 @@ $(document).ready(function()  {
 
     var pathWork = seed+sprout+sapling+matureOak+snag;
     console.log(pathWork)
-
-
-
-
-
 
 //==Front_End==
      if (pathWork <=6){
